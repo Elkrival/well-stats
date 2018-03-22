@@ -1,0 +1,28 @@
+.feature-box{
+ background-color: rgba($color-white, 9);
+ font-size: 3rem;
+ padding-top: 2.5rem;
+ text-align: center;
+ height: 60rem;
+ width: 27rem;
+ border-radius: $small-border-radius;
+ box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+ transition: transform .3s;
+ &:hover{
+  transform: translateY(-1.5rem) scale(1.03);
+ }
+ &__details {
+  padding:3rem;
+  ul{
+   list-style: none;
+    margin: 0 auto;
+  }
+  li{
+   padding: 1rem;
+   font-size: 1.5rem;
+   &:not(:last-child){
+    border-bottom: 1px solid #eee;
+   }
+  }
+ }
+}
