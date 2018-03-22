@@ -1,10 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,500,700');
 
 @import './scss/abstract/mixins';
-@import './scss/abstract/functions';
 @import './scss/abstract/variables';
 
-@import "./scss/base/animations";
 @import "./scss/base/base";
 @import "./scss/base/typography";
 @import "./scss/base/utilities";
@@ -15,13 +13,9 @@
 @import "./scss/components/card";
 @import "./scss/components/story";
 @import "./scss/components/bg_video";
-@import "./scss/components/_form.scss";
-@import "./scss/components/popup";
 
 @import "./scss/layout/grid";
 @import "./scss/layout/header";
-@import "./scss/layout/footer";
-@import "./scss/layout/navigation";
 
 
 @import "./scss/pages/home";
