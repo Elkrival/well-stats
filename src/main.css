@@ -133,6 +133,28 @@ body {
   box-shadow: -1rem 1rem 2rem rgba(0, 0, 0, 0.15);
   transform: translateY(0); }
 
+.composition {
+  position: relative; }
+  .composition__card {
+    box-shadow: 0 1.5rem 4rem black;
+    border-radius: 2px;
+    position: absolute;
+    z-index: 10;
+    transition: all .2s;
+    outline-offset: 2rem; }
+    .composition__card--c1 {
+      left: 30%;
+      top: 10%;
+      width: 65%; }
+    .composition__card--c2 {
+      right: 10%;
+      top: 2rem;
+      width: 65%; }
+    .composition__card--c3 {
+      left: 65%;
+      top: -26rem;
+      width: 65%; }
+
 .feature-box {
   background-color: white;
   font-size: 3rem;
@@ -164,29 +186,15 @@ body {
   .card__side {
     height: 31rem;
     font-size: 2rem;
-    transition: all .8s ease;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     backface-visibility: hidden;
     border-radius: 3px;
-    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-    overflow: hidden; }
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
     .card__side--front {
       background-color: #ffffff; }
-    .card__side--back {
-      transform: rotateY(180deg); }
-      .card__side--back-1 {
-        background-image: linear-gradient(to right bottom, #ff8d1b, #f68b1f); }
-      .card__side--back-2 {
-        background-image: linear-gradient(to right bottom, #9ced99, #7aba7a); }
-      .card__side--back-3 {
-        background-image: linear-gradient(to right bottom, #74C2E1, #0191C8); }
-  .card:hover .card__side--front {
-    transform: rotateY(-180deg); }
-  .card:hover .card__side--back {
-    transform: rotateY(0deg); }
   .card__picture {
     background-size: cover;
     height: 23rem;
@@ -196,50 +204,33 @@ body {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px; }
     .card__picture--1 {
-      background-image: linear-gradient(to right bottom, #ff8d1b, #f68b1f), url("./img/foundation.jpg"); }
+      background-image: url("./img/foundation.jpg"); }
     .card__picture--2 {
-      background-image: linear-gradient(to right bottom, #9ced99, #7aba7a), url("./img/reduce_cost.jpg"); }
+      background-image: url("./img/reduce_cost.jpg"); }
     .card__picture--3 {
-      background-image: linear-gradient(to right bottom, #74C2E1, #0191C8), url("./img/predictive.jpg"); }
+      background-image: url("./img/predictive.jpg"); }
   .card__heading {
-    font-size: 2.8rem;
+    font-size: 2rem;
     font-weight: 300;
     text-transform: uppercase;
-    text-align: right;
+    text-align: center;
     color: #ffffff;
     position: absolute;
-    top: 12rem;
-    right: 2rem;
+    top: 22rem;
     width: 75%;
-    z-index: 1; }
+    z-index: 3; }
   .card__heading-span {
     padding: 1rem 1.5rem;
     -webkit-box-decoration-break: clone;
-    box-decoration-break: clone; }
+    box-decoration-break: clone;
+    position: relative;
+    left: 4rem; }
     .card__heading-span--1 {
       background-image: linear-gradient(to right bottom, rgba(255, 141, 27, 0.85), rgba(246, 139, 31, 0.85)); }
     .card__heading-span--2 {
       background-image: linear-gradient(to right bottom, rgba(156, 237, 153, 0.85), rgba(122, 186, 122, 0.85)); }
     .card__heading-span--3 {
       background-image: linear-gradient(to right bottom, rgba(116, 194, 225, 0.85), rgba(1, 145, 200, 0.85)); }
-  .card__cta {
-    position: absolute;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 90%;
-    text-align: center; }
-  .card__price-box {
-    text-align: center;
-    margin-bottom: 8rem;
-    color: #ffffff; }
-  .card__price-only {
-    font-size: 1.4rem;
-    text-transform: uppercase; }
-  .card__price-value {
-    font-size: 6rem;
-    font-weight: 400; }
 
 .story {
   width: 75%;
@@ -251,52 +242,15 @@ body {
   padding-left: 9rem;
   font-size: 1.6rem;
   transform: skewX(-12deg); }
-  .story__shape {
-    width: 15rem;
-    height: 15rem;
-    background-color: #20bee8;
-    float: left;
-    border-radius: 50%;
-    -webkit-shape-outside: circle(50% at 50% 50%);
-    shape-outside: circle(50% at 50% 50%);
-    -webkit-clip-path: circle(50% at 50% 50%);
-    clip-path: circle(50% at 50% 50%);
-    transform: translateX(-3rem) skewX(12deg);
-    position: relative;
-    overflow: hidden; }
-  .story__img {
-    height: 100%;
-    transform: translateX(2.3rem) scale(0.7);
-    filter: grayscale(5%);
-    transition: all .3s;
-    backface-visibility: hidden; }
-  .story__caption {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 20%);
-    color: #ffffff;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    text-align: center;
-    opacity: 0;
-    transition: all .5s;
-    backface-visibility: hidden; }
-  .story__text {
-    transform: skewX(12deg); }
-  .story:hover .story__caption {
-    opacity: 1;
-    transform: translateY(-50%, -50%); }
-  .story:hover .story__img {
-    transform: translateX(2.25rem) translateY(-1rem) scale(0.8);
-    filter: blur(4px); }
 
 .bg-video {
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
-  width: 100%; }
+  width: 100%;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+  -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%); }
   .bg-video__content {
     height: 100%;
     width: 100%;
@@ -337,11 +291,14 @@ body {
 .header {
   height: 95vh;
   position: relative;
-  background-position: top; }
+  background-position: top;
+  background-color: #00a9db;
+  background-size: cover; }
 
 .section-about {
   background-color: #ffffff;
-  padding: 25rem 0rem; }
+  padding: 25rem 0rem;
+  margin-top: -20vh; }
 
 .section-business-proposition {
   background-color: #f7f7f7;
