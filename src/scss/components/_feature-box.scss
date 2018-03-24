@@ -8,6 +8,9 @@
  border-radius: $small-border-radius;
  box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
  transition: transform .3s;
+ h3{
+  color: $color-primary-dark;
+ }
  &:hover{
   transform: translateY(-1.5rem) scale(1.03);
  }
