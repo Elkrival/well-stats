@@ -154,6 +154,12 @@ body {
       left: 65%;
       top: -26rem;
       width: 65%; }
+    .composition__card:hover {
+      transform: scale(1.05) translateY(0.5rem);
+      box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+      z-index: 20; }
+  .composition:hover .composition__card:not(:hover) {
+    transform: scale(0.8); }
 
 .feature-box {
   background-color: white;

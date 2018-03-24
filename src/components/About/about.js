@@ -6,7 +6,7 @@ const About = () =>{
  return(
   <section className="section-about">
    <div className="u-center-text u-margin-bottom-small">
-    <h2 className="heading-secondary">
+    <h2 className="heading-secondary u-margin-bottom-big">
      We Are Wellstats
     </h2>
    </div>
@@ -19,10 +19,10 @@ const About = () =>{
      WellStats understand that in the world of Human and Health services it is always a juggling act between massive budget cuts, increased regulartions, and porivinding the most vulnerable populations with exceptaional care.
     </p>
     <h3 className="heading-tertiary u-margin-bottom-small">
-     Chew Toys!
+     WITH YOU IN MIND.
     </h3>
      <p className="paragraph">
-      Pet Food pet supplies gimme five puppy cage food feathers food heel feathers running pet gate walk lazy dog Spike. Good Boy park lazy dog walk kibble Scooby snacks licks canary.
+      Deisgned by professionals in the industry, WellStats is here to partner with your agency on transformative technology solutions that fit your needs and help your agency thrive.
      </p>
      <a href="3" className="btn-text">
       Take the First Step &rArr;

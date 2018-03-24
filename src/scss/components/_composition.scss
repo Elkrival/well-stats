@@ -22,5 +22,13 @@
    top: -26rem;
    width: 65%;
   }
+ &:hover{
+   transform: scale(1.05) translateY(.5rem);
+   box-shadow: 0 2.5rem 4rem rgba($color-black, .5);
+   z-index: 20;
+  }
+ }
+ &:hover &__card:not(:hover){
+  transform:scale(.8);
  }
 }
