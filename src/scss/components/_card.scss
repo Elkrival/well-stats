@@ -2,7 +2,7 @@
  perspective: 150rem;
  -moz-perspective: 150rem;
  position: relative;
- height: 28rem;
+ height: 31rem;
  &__side{
   height: 31rem;
   font-size: 2rem;
@@ -15,6 +15,12 @@
   box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
   &--front{
    background-color: $color-white;
+   &--industries{
+    height: 52rem;
+   }
+   &--about{
+    height: 28rem;
+   }
   }
  }
  &__picture{
@@ -36,6 +42,18 @@
   &--3{
    background-image:
    url('./img/predictive.jpg');
+  }
+  &--4{
+   background-image:
+    url('./img/disability_care.jpg');
+  }
+  &--5{
+   background-image:
+   url('./img/foster_care.jpg');
+  }
+  &--6{
+   background-image:
+   url('./img/home_care.jpg');
   }
  }
  &__heading{
@@ -75,6 +93,22 @@
    to right bottom,
    rgba($color-quad-light, .85),
    rgba($color-quad-dark, .85));
+  }
+ }
+ &__details{
+  padding: 3rem;
+  ul{
+   list-style: none;
+   width: 80%;
+   margin: 0 auto;
+  }
+  li{
+   text-align: center;
+   font-size: 1.5rem;
+   padding:1rem;
+   &:not(:last-child){
+    border-bottom: 1px solid #eee;
+   }
   }
  }
 }

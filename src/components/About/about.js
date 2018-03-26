@@ -30,7 +30,7 @@ const About = () =>{
    <div className="col-1-of-2">
     <div className="composition">
      <div className="composition__card composition__card--c1 card ">
-      <div className="card__side card__side--front">
+      <div className="card__side card__side--front card__side--front--about">
        <div className="card__picture card__picture--1">
         &nbsp;
        </div>
@@ -40,7 +40,7 @@ const About = () =>{
      </div>
     </div>
     <div className="composition__card composition__card--c2 card">
-      <div className="card__side card__side--front">
+      <div className="card__side card__side--front card__side--front--about">
        <div className="card__picture card__picture--2">
         &nbsp;
        </div>
@@ -49,8 +49,8 @@ const About = () =>{
        </h4>
       </div>
      </div>
- <div className="composition__card composition__card--c3 card">
-      <div className="card__side card__side--front">
+ <div className="composition__card composition__card--c3 card ">
+      <div className="card__side card__side--front card__side--front--about">
        <div className="card__picture card__picture--3">
         &nbsp;
        </div>

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Header from './components/Header/header'
 import About from './components/About/about'
 import Features from './components/Features/features'
-
+import Industries from './components/Industries/industries'
 import BusinessPropositions from './components/BusinessValue/business_value'
 
 class App extends Component {
@@ -13,6 +13,7 @@ class App extends Component {
     <About />
     <BusinessPropositions />
     <Features />
+    <Industries />
    </div>
    );
  }
