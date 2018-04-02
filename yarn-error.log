@@ -1,5 +1,5 @@
 Arguments: 
-  /Users/ivatruji/.nvm/versions/node/v9.9.0/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js run deploy
+  /Users/ivatruji/.nvm/versions/node/v9.9.0/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js start
 
 PATH: 
   /Users/ivatruji/.nvm/versions/node/v9.9.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
@@ -7629,7 +7629,7 @@ Trace:
   Error: Command failed.
   Exit code: 1
   Command: sh
-  Arguments: -c gh-pages -b master -d build
+  Arguments: -c npm-run-all -p watch-css start-js
   Directory: /Users/ivatruji/Desktop/repos/well-stats
   Output:
   
