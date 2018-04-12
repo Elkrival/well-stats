@@ -4,7 +4,7 @@ const BusinessPropositions = () =>{
  return(
   <section className="section-business-proposition" id="business_value">
    <div className="u-center-text u-margin-bottom-big">
-   <h2 className="heading-secondary heading-secondary--quote"> Alone we can do so little; together we can do so much. –Hellen Keller</h2>
+   <h2 className="heading-secondary heading-secondary--quote"> <q>Alone we can do so little; together we can do so much.</q> –Hellen Keller</h2>
    </div>
    <div className="row">
     <div className="col-1-of-3">

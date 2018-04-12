@@ -13,6 +13,7 @@
   backface-visibility: hidden;
   border-radius: $small-border-radius;
   box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+  transition: all .8s ease;
   &--front{
    background-color: $color-white;
    &--industries{
@@ -22,6 +23,36 @@
     height: 28rem;
    }
   }
+  &--back{
+   transform: rotateY(180deg);
+   &--industries{
+    height: 52rem;
+   }
+   &-1{
+    background-image: linear-gradient(
+     to right bottom,
+     $color-tertiary-light,
+     $color-tertiary-dark)
+   }
+   &-2{
+    background-image: linear-gradient(
+     to right bottom,
+     $color-secondary-light,
+     $color-secondary-dark)
+   }
+   &-3{
+    background-image: linear-gradient(
+     to right bottom,
+     $color-primary-light,
+     $color-primary-dark)
+   }
+  }
+ }
+ &:hover &__side--front--flip{
+  transform: rotateY(-180deg);
+ }
+ &:hover &__side--back--flip{
+  transform: rotateY(0deg);
  }
  &__picture{
   background-size: cover;
@@ -97,6 +128,7 @@
  }
  &__details{
   padding: 3rem;
+  color: $color-grey-dark-3;
   ul{
    list-style: none;
    width: 80%;
@@ -111,4 +143,11 @@
    }
   }
  }
+ &__cta{
+  position:absolute;
+  @include centerPosition;
+  width:90%;
+  text-align: center;
+ }
+
 }
