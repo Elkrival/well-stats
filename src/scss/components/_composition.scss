@@ -8,17 +8,17 @@
   transition: all .2s;
   outline-offset: 2rem;
   &--c1{
-   left: 15%;
+   left: 5%;
    width: 65%
   }
   &--c2{
-   right:20%;
-   top:2rem;
+   right:40%;
+   top:6rem;
    width: 65%;
   }
   &--c3{
-   left: 45%;
-   top: -29rem;
+   left: 50%;
+   top: -25rem;
    width: 65%;
   }
  &:hover{
@@ -28,6 +28,6 @@
   }
  }
  &:hover &__card:not(:hover){
-  transform:scale(.8);
+  transform:scale(.97);
  }
 }

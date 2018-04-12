@@ -4,27 +4,27 @@ const BusinessPropositions = () =>{
  return(
   <section className="section-business-proposition" id="business_value">
    <div className="u-center-text u-margin-bottom-big">
-   <h2 className="heading-secondary"> Alone we can do so little; together we can do so much. –Hellen Keller</h2>
+   <h2 className="heading-secondary heading-secondary--quote"> Alone we can do so little; together we can do so much. –Hellen Keller</h2>
    </div>
    <div className="row">
     <div className="col-1-of-3">
      <div className="story">
       <div className="story__text">
-       <h3 className="heading-tertiary margin-bottom-small">HIPAA Compliant Tech Platforms &#10004;</h3>
+       <h3 className="heading-tertiary margin-bottom-small">&#10004; HIPAA Compliant Tech Platforms </h3>
       </div>
      </div>
     </div>
    <div className="col-1-of-3">
     <div className="story">
      <div className="story__text">
-      <h3 className="heading-tertiary margin-bottom-small">OSHA and CMS Approved Electronic Signature &#10004;</h3>
+      <h3 className="heading-tertiary margin-bottom-small">&#10004; OSHA & CMS Approved Electronic Signature </h3>
      </div>
     </div>
    </div>
   <div className="col-1-of-3">
    <div className="story">
     <div className="story__text">
-      <h3 className="heading-tertiary margin-bottom-small">Secured Cloud Based Software Solution &#10004;</h3>
+      <h3 className="heading-tertiary margin-bottom-small">&#10004; Secured Cloud Based Software Solution</h3>
      </div>
     </div>
    </div>

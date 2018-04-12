@@ -5,7 +5,7 @@ const Header = () =>{
  return(
   <header className="header" id="company">
    <div className="bg-video">
-    <video className="bg-video__content" autoPlay muted>
+    <video className="bg-video__content" autoPlay muted controls>
      <source src={ video_mp4} type="video/mp4"/>
     </video>
    </div>

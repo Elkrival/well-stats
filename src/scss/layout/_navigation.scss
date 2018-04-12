@@ -85,6 +85,13 @@
   opacity:1;
   width:100%;
  }
+ &__checbox:not(:checked) ~ &__background{
+  transform: scale(0);
+ }
+ &__checbox:not(:checked) ~ &__nav{
+  opacity:0;
+  width:0%;
+ }
  //icon
  &__icon{
    position:relative;
@@ -126,4 +133,5 @@
   top:0;
   transform: rotate(-135deg);
  }
+
 }

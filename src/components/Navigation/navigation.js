@@ -12,12 +12,12 @@ const Navigation = () =>{
   </div>
    <nav className="navigation__nav">
     <ul className="navigation__list">
-    <li className="navigation__item" ><a href="company" className="navigation__link"><span>01</span>Home</a></li>
-    <li className="navigation__item" ><a href="about" className="navigation__link"><span>02</span>About</a></li>
-    <li className="navigation__item"><a href="business_value" className="navigation__link"><span>03</span>Business Value</a></li>
-    <li className="navigation__item" ><a href="features" className="navigation__link"><span>04</span>Features</a></li>
-    <li className="navigation__item"><a href="industries" className="navigation__link"><span>05</span>Industries</a></li>
-    <li className="navigation__item"><a href="about" className="btn btn--white">Take The First Step</a></li>
+    <li className="navigation__item" ><a href="#company" className="navigation__link"><span>01</span>Home</a></li>
+    <li className="navigation__item" ><a href="#about" className="navigation__link"><span>02</span>About</a></li>
+    <li className="navigation__item"><a href="#business_value" className="navigation__link"><span>03</span>Business Value</a></li>
+    <li className="navigation__item" ><a href="#features" className="navigation__link"><span>04</span>Features</a></li>
+    <li className="navigation__item"><a href="#industries" className="navigation__link"><span>05</span>Industries</a></li>
+    <li className="navigation__item"><a href="#about" className="btn btn--white">Take The First Step</a></li>
     </ul>
    </nav>
   </div>

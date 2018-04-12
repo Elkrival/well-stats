@@ -18,9 +18,6 @@ const Footer = () =>{
        <a href="#about" className="footer__link">About us</a>
       </li>
       <li className="footer__item">
-       <a href="#business_value" className="footer__link">Busines Value</a>
-      </li>
-      <li className="footer__item">
        <a href="#features" className="footer__link">Features</a>
       </li>
       <li className="footer__item">
@@ -32,7 +29,7 @@ const Footer = () =>{
      <div className="col-1-of-2">
       <p className="footer__copyright">
        <br />
-      Copyright©2017 WellStats
+      Copyright © 2017 WellStats
       </p>
      </div>
    </div>

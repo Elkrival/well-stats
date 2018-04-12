@@ -24,7 +24,7 @@ const Features = () =>{
       <h3 className="heading-tertiary">Live Direct Care Documentation</h3>
      <div className="feature-box__details">
       <ul>
-       <li>Track using our Mobile App</li>
+       <li>Track Using our Mobile App</li>
        <li>Compatible with Android/IOS Devices</li>
        <li>Communicate Effectively to a Dispersed Workforce</li>
        <li>Instant Client Service Updates</li>

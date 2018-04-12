@@ -11,13 +11,13 @@ const About = () =>{
    </div>
     <div className="row">
    <div className="col-1-of-2">
-    <h3 className="heading-tertiary u-margin-bottom-small">
+    <h3 className="heading-tertiary heading-tertiary--blue u-margin-bottom-small">
      COMPREHENSIVE SERVICES
     </h3>
     <p className="paragraph">
      WellStats understand that in the world of Human and Health services it is always a juggling act between massive budget cuts, increased regulartions, and porivinding the most vulnerable populations with exceptaional care.
     </p>
-    <h3 className="heading-tertiary u-margin-bottom-small">
+    <h3 className="heading-tertiary heading-tertiary--blue u-margin-bottom-small">
      WITH YOU IN MIND.
     </h3>
      <p className="paragraph">
