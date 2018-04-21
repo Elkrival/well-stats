@@ -8,7 +8,6 @@ import ContactForm from './components/Contact_Form/contact_form';
 import Footer from './components/Footer/footer';
 import Navigation from './components/Navigation/navigation'
 
-
 class App extends Component {
  render() {
   return (
