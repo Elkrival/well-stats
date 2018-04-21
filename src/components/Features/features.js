@@ -51,7 +51,7 @@ const Features = () =>{
     </div>
     <div className="col-1-of-4">
      <div className="feature-box">
-      <h3 className="heading-tertiary">The WellStats Touch</h3>
+      <h3 className="heading-tertiary">The WellStats Advantage</h3>
      <div className="feature-box__details">
       <ul>
        <li>Multi-level Implementation Plans to Fit the Dynamics and Culture of the Agency</li>

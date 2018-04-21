@@ -40,13 +40,15 @@
  );
 }
 .contact{
- background-image: linear-gradient(
+ background-image:
+  linear-gradient(
   105deg,
   rgba($color-white, .9)0%,
-  rgba($color-white, .9) 50%,
-  transparent 50%),
-  url(./img/teamwork.jpg);
- background-size: 100%;
+  rgba($color-white, .9) 10%,
+  transparent 30%),
+  url(./img/contact_us.jpg);
+ background-size: 125%;
+ background-position: left .01rem bottom -10px;
   border-radius: $small-border-radius;
   box-shadow: 0 3rem 4rem rgba($color-black, .2);
   height: 50rem;

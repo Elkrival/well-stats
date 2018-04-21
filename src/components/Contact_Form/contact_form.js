@@ -8,13 +8,9 @@ const ContactForm = () =>{
     <div className="contact-form">
      <form className="form">
       <div className="col-2-of-4">
-      <div className="u-margin-bottom-medium u-margin-top-small form--titles">
-       <h3 className="heading-tertiary u-margin-bottom-small">
-         For Questions or to Set Up an Informational Meeting
-       </h3>
-       <h3 className="heading-tertiary">
-        Contact Us
-       </h3>
+      <div className="u-margin-bottom-small u-margin-top-small form--titles">
+     
+      &nbsp;
       </div>
       <div className="form__group">
        <input type="text" placeholder="First Name" className="form-has-content form__input"/>
@@ -29,6 +25,16 @@ const ContactForm = () =>{
       <div className="form__group">
        <input type="text" placeholder="Email" className="form__input"/>
        <label htmlFor="email" className="form__label">Email</label>
+       <span className="form--focus-border"></span>
+      </div>
+      <div className="form__group">
+       <input type="text" placeholder="Company" className="form__input"/>
+       <label htmlFor="company" className="form__label">Company</label>
+       <span className="form--focus-border"></span>
+      </div>
+      <div className="form__group">
+       <input type="text" placeholder="Phone Number" className="form__input"/>
+       <label htmlFor="phone" className="form__label">Phone Number</label>
        <span className="form--focus-border"></span>
       </div>
       <div className="form__group">

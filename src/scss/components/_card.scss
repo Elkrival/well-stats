@@ -4,7 +4,7 @@
  position: relative;
  height: 31rem;
  &__side{
-  height: 31rem;
+  height: 30rem;
   font-size: 2rem;
   position: absolute;
   top: 0;
@@ -13,12 +13,9 @@
   backface-visibility: hidden;
   border-radius: $small-border-radius;
   box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
-  transition: all .8s ease;
+  transition: all .9s ease;
   &--front{
    background-color: $color-white;
-   &--industries{
-    height: 52rem;
-   }
    &--about{
     height: 28rem;
    }
@@ -50,13 +47,15 @@
  }
  &:hover &__side--front--flip{
   transform: rotateY(-180deg);
+  height:52rem;
  }
  &:hover &__side--back--flip{
   transform: rotateY(0deg);
+  // height:31rem;
  }
  &__picture{
   background-size: cover;
-  height: 23rem;
+  height: 22rem;
   background-blend-mode: screen;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100% );
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100% );

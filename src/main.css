@@ -57,7 +57,7 @@ body {
   margin-bottom: 4rem !important; }
 
 .u-margin-top-small {
-  margin-top: 4rem !important; }
+  margin-top: 2rem !important; }
 
 .u-margin-top-medium {
   margin-top: 4rem !important; }
@@ -198,7 +198,7 @@ body {
   position: relative;
   height: 31rem; }
   .card__side {
-    height: 31rem;
+    height: 30rem;
     font-size: 2rem;
     position: absolute;
     top: 0;
@@ -207,11 +207,9 @@ body {
     backface-visibility: hidden;
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-    transition: all .8s ease; }
+    transition: all .9s ease; }
     .card__side--front {
       background-color: #ffffff; }
-      .card__side--front--industries {
-        height: 52rem; }
       .card__side--front--about {
         height: 28rem; }
     .card__side--back {
@@ -225,12 +223,13 @@ body {
       .card__side--back-3 {
         background-image: linear-gradient(to right bottom, #6acfee, #00a9db); }
   .card:hover .card__side--front--flip {
-    transform: rotateY(-180deg); }
+    transform: rotateY(-180deg);
+    height: 52rem; }
   .card:hover .card__side--back--flip {
     transform: rotateY(0deg); }
   .card__picture {
     background-size: cover;
-    height: 23rem;
+    height: 22rem;
     background-blend-mode: screen;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
@@ -626,8 +625,9 @@ body {
   background-image: linear-gradient(to right bottom, #74C2E1, #0191C8); }
 
 .contact {
-  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(./img/teamwork.jpg);
-  background-size: 100%;
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 10%, transparent 30%), url(./img/contact_us.jpg);
+  background-size: 125%;
+  background-position: left .01rem bottom -10px;
   border-radius: 3px;
   box-shadow: 0 3rem 4rem rgba(0, 0, 0, 0.2);
   height: 50rem; }
