@@ -547,10 +547,10 @@ body {
   opacity: 1;
   width: 100%; }
 
-.navigation__checbox:not(:checked) ~ .navigation__background {
+.navigation__checkbox:not(:checked) ~ .navigation__background {
   transform: scale(0); }
 
-.navigation__checbox:not(:checked) ~ .navigation__nav {
+.navigation__checkbox:not(:checked) ~ .navigation__nav {
   opacity: 0;
   width: 0%; }
 
